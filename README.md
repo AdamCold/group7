@@ -127,9 +127,21 @@ This project emphasizes integration test coverage to ensure the reliability and 
 - [![Pyae Sone](https://img.shields.io/badge/-Pyae_Sone-00cc00.svg)](https://github.com/SonePyae)
 
 - [![Zayar Phyo](https://img.shields.io/badge/-Zayar_Phyo-00cc00.svg)](https://github.com/zayarphyo18)
-  
-## Version
 
+## Contribution Spreadsheet
+
+| Name     | Week-1       | Week-2  | Week-3  | Week-4  | Week-5  |
+|----------|--------------|---------|---------|---------|---------|
+| 40632019 |  16.67%      |16.67%   |16.67%   |16.67%   |    16.66%     |
+| 40632016 |  16.67%      |16.67%   |16.67%   |16.67%   |   16.66%      |
+| 40632024 |  16.67%      |16.67%   |16.67%   |16.65%   |    16.67%     |
+| 40616703 |  16.67%      |16.67%   |16.65%   |16.67%   |    16.67%     |
+| 40616707 |  16.67%      |16.65%   |16.67%   |16.67%   |   16.67%      |
+| 40632011 |  16.65%      |16.67%   |16.67%   |16.67%   |    16.67%     |
+| **Total**| **100%**     |**100%** |**100%** |**100%** |      **100%**   |
+
+
+## Badges
 
 - Master Build Status ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AdamCold/group7/main.yml?branch=master)
 
