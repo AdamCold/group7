@@ -141,6 +141,11 @@ This project emphasizes integration test coverage to ensure the reliability and 
 | **Total**| **100%**     |**100%** |**100%** |**100%** |      **100%**   |
 
 
+## Kanban and Sprint Boards
+
+- [Kanban Board](https://zube.io/group-7/group-7-devops/w/workspace-1/kanban)
+- [Sprint Board](https://zube.io/group-7/group-7-devops/w/workspace-1/sprintboard?where%5Bsprint_id%5D=57566)
+
 ## Badges
 
 - Master Build Status ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AdamCold/group7/main.yml?branch=master)
