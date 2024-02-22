@@ -1,18 +1,60 @@
 ## **DevOps Group Project By G7**
 
-**Code Review 4**
 
 ## Overview
 
 This is a Java application that connects to a MySQL database containing world data. Developed by Htoo Myat Linn, Kyaw Ko Ko San, Bhone Myat, Wai Yan Moe, Zayar Phyo, and Pyae Sone, this application demonstrates essential database interactions and queries. It provides functionalities to retrieve and display information about countries and cities, filter data by continent, country, district and region, and showcase top-populated countries.
 
 
-## Features
+## Population and Demographics Feature
 
-- Connects to a MySQL database to retrieve country and city information.
-- Displays detailed information about countries, including population, surface area, and more.
-- Filters countries and cities by continent, country, district and region.
-- Identifies top-populated countries and cities globally, by continent, country, district and by region.
+### Reports Generation
+- Generate reports on country populations and demographics:
+  - All countries in the world, continent, or region, organized by population.
+  - Top 10 populated countries globally, in a continent, or in a region.
+  - All cities worldwide, by continent, region, country, or district, sorted by population.
+  - Top 10 populated cities globally, in a continent, region, country, or district.
+  - All capital cities globally, by continent, or region, sorted by population.
+  - Top 10 populated capital cities globally, in a continent, or region.
+  - Population statistics of people, people living in cities, and people not living in cities, for each continent, region, and country.
+
+### Language Statistics
+- Provide statistics on the number of people speaking specific languages globally:
+  - Including the percentage of the world population.
+  - Languages include Chinese, English, Hindi, Spanish, and Arabic.
+
+### Customized Reports
+- Allow users to request reports with customizable parameters:
+  - Choose specific continents, regions, countries, or districts.
+  - Specify the number of top 10 populated entities (countries, cities, or capital cities).
+
+### Data Retrieval
+- Connects to a MySQL database to retrieve information on countries, cities, and demographics.
+- Detailed reports with columns such as code, name, continent, region, population, capital, etc.
+
+### Supported Reports:
+#### Country Report
+- Provides detailed information about countries, including code, name, continent, region, population, and capital.
+
+#### City Report
+- Displays essential data about cities, including name, country, district, and population.
+
+#### Capital City Report
+- Offers insights into capital cities, including name, country, and population.
+
+#### Population Report
+- Presents comprehensive population statistics for continents, regions, and countries:
+  - Total population.
+  - Population living in cities (with percentage).
+  - Population not living in cities (with percentage).
+
+### Additional Features
+- Filter countries and cities by continent, country, district, or region.
+- Identify top 10 populated entities globally or within specified parameters.
+
+### Report Screenshots
+Find the screenshots of generated reports in the following link:
+[Final Reports Screenshots](https://github.com/AdamCold/group7/tree/master/final%20reports)
 
 ## Integration Test Coverage
 
@@ -45,7 +87,6 @@ This project emphasizes integration test coverage to ensure the reliability and 
   
 ## Version
 
-Current version: 0.1-alpha-5 (Released on 2024-02-16)
 
 - Master Build Status ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AdamCold/group7/main.yml?branch=master)
 
