@@ -55,6 +55,7 @@ jobs:
           directory: ./target/site/jacoco
           flags: IntegrationTests # optional
           verbose: true # optional (default = false)
+
   build:
     name: Build Run in Docker and Deploy Release
     runs-on: ubuntu-20.04
@@ -68,6 +69,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
+      - name: Install Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install docker-compose -y
       - name: Package and Run docker compose
         run: |
           mvn package -DskipTests
