@@ -156,4 +156,4 @@ This project emphasizes integration test coverage to ensure the reliability and 
 
 - Release [![Releases](https://img.shields.io/github/release/AdamCold/group7/all.svg?style=flat-square)](https://github.com/AdamCold/group7/releases)
 
-- [![codecov](https://codecov.io/gh/AdamCold/group7/graph/badge.svg?token=7I4F1K7UUK)](https://codecov.io/gh/AdamCold/group7)
+- [![codecov](https://codecov.io/gh/AdamCold/group7/graph/badge.svg?token=7I4F1K7UUK)](https://codecov.io/gh/AdamCold/group7) 
